@@ -15,6 +15,7 @@ const InputPeso = ({ value, onChange }: InputPesoProps) => {
                 type="number"
                 value={value}
                 title="Por favor entre um valor válido em kilogramas (ex.: 85.6)"
+                placeholder="Ex.: 85,6"
                 onChange={onChange}
             />
         </div>

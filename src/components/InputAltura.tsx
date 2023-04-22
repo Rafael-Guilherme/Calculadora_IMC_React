@@ -14,7 +14,7 @@ const InputAltura = ({ value, onChange}: InputAlturaProps) => {
                 id="altura"
                 type="number"
                 value={value}
-                title="Por favor entre um valor metros (ex.: 1.70)"
+                placeholder="Ex.: 1,70"
                 onChange={onChange}
             />
         </div>
